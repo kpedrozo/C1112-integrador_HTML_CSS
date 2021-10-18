@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/index.css">
+  <title>Comprar Tickets - Conferencia Buenos Aires</title>
+</head>
+
+<body>
+  <!-- Inicio de nav -->
+  <nav class="navbar navbar-expand-lg navbar-dark ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <p>Conf Bs As</p>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">La conferencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Los oradores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">El lugar y la fecha</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Conviérte en orador</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#" id="tickets">Comprar tickets</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Fin de nav -->
+
+
+  <!-- Inicio cajas -->
+
+  <div class="container-cards">
+    <div class="caja" id="azul">
+      <h2>Estudiante</h2>
+      <h4>Tienen un descuento</h4>
+      <h4 class="descuento"> 80%</h4>
+      <p>* presentar documentacion</p>
+    </div>
+    <div class="caja" id="verde">
+      <h2>Trainee</h2>
+      <h4>Tienen un descuento</h4>
+      <h4 class="descuento"> 50%</h4>
+      <p>* presentar documentacion</p>
+    </div>
+    <div class="caja" id="amarillo">
+      <h2>Junior</h2>
+      <h4>Tienen un descuento</h4>
+      <h4 class="descuento"> 15%</h4>
+      <p>* presentar documentacion</p>
+    </div>
+  </div>
+  <!-- Fin cajas -->
+
+
+
+  <!-- Inicio forms-->
+
+  <div class="forms">
+    <div>
+      <p>VENTA</p>
+      <h2>VALOR DE TICKET $200</h2>
+    </div>
+    <div class="mb-3">
+      <input type="text" id="nombre" class="form-control" placeholder="Nombre">
+      <input type="text" id="apellido" class="form-control" placeholder="Apellido">
+    </div>
+    <div class="mb-correo">
+      <input type="email" id="correo" class="form-control" placeholder="Correo">
+    </div>
+    <div class="mb-3">
+      <div class="cantidad">
+        <h6>Cantidad</h6>
+        <input type="number" class="form-control" id="cantidad" placeholder="cantidad" min="0">
+      </div>
+      <div class="categoria">
+        <h6>Categoria</h6>
+        <select class="form-select" aria-label="Categoria" id="categorias">
+          <option selected value="estudiante">Estudiante</option>
+          <option value="trainee">Trainee</option>
+          <option value="junior">Junior</option>
+        </select>
+      </div>
+    </div>
+    <div class="alert alert-primary" role="alert">
+      Total a Pagar: $
+    </div>
+    <div class="col-auto">
+      <button type="submit" class="btn text-light">Borrar</button>
+      <button type="submit" class="btn text-light" id="resumen" >Resumen</button>
+    </div>
+  </div>
+
+  <!--Fin forms-->
+
+
+  <!--Inicio footer-->
+
+  <footer>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col">
+          <p>Preguntas frecuentes</p>
+        </div>
+        <div class="col">
+          <p>Contáctanos</p>
+        </div>
+        <div class="col">
+          <p>Prensa</p>
+        </div>
+        <div class="col">
+          <p>Conferencias</p>
+        </div>
+        <div class="col">
+          <p>Términos y condiciones</p>
+        </div>
+        <div class="col">
+          <p>Privacidad</p>
+        </div>
+        <div class="col">
+          <p>Estudiantes</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--Fin footer-->
+
+
+</body>
+
+</html>

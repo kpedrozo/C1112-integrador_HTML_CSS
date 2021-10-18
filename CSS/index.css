@@ -11,7 +11,7 @@ nav img{
 }
 
 #tickets {
-    color: green;
+    color: #67AD3F;
 }
 
 .fondo-principal {
@@ -68,10 +68,50 @@ nav img{
     justify-content: center;
 }
 
+.container-cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.caja {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    }
+
+#azul {
+    border: 2px solid #1886FC;
+}
+
+#verde {
+    border: 2px solid #2CAABE;
+}
+
+#amarillo {
+    border: 2px solid #FCC61E;
+}
+
+.caja p{
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.caja .descuento {
+    font-weight: bolder;
+}
+
 .forms {
     margin-top: 1em;
     max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 .forms p{
     margin-bottom: 0em;
@@ -84,7 +124,11 @@ nav img{
     text-decoration: none;
     margin-left: 3px;
     margin-right: 3px;
+}
 
+.forms .titulos {
+    margin-top: 1em;
+    display: flex;
 }
 
 .forms h2{
@@ -103,6 +147,20 @@ nav img{
     max-width: 48%;
 }
 
+.forms .mb-correo {
+    margin-bottom: 15px;
+}
+
+.forms .mb-3 div{
+    display: block;
+    width: 100%;
+}
+
+.forms .col-auto {
+    display: flex;
+    justify-content: space-between;
+}
+
 .forms .mb-4 .pie {
     justify-content: flex-start;
     color: #6c757d;
@@ -111,9 +169,37 @@ nav img{
 
 .forms .btn {
     width: 100%;
+    background-color: #96C93E;    
+}
+
+
+.forms .btn-venta {
+    max-width: 49%;
+    width: 100%;
     background-color: #96C93E;
+}
+
+
+#cantidad {
+    max-width: 100%;
+    -moz-appearance: textfield;
+    color: gray;
     
 }
+
+.categoria {
+    margin-left: 25px;
+}
+
+#categorias {
+    color: gray;
+}
+
+
+#resumen {
+    margin-left: 10px;
+}
+
 
 footer {
     margin-top: 15px;
