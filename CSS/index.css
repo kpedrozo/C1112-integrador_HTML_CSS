@@ -1,0 +1,148 @@
+.navbar{
+    background-color: #363A45;
+}
+
+#navbarSupportedContent{
+    flex-grow: 0;
+}
+
+nav img{
+    width: 90px;
+}
+
+#tickets {
+    color: green;
+}
+
+.fondo-principal {
+    position: relative;
+    display: flex;
+    text-align: right;
+}
+
+
+.img-fluid { 
+    filter: brightness(50%); 
+} 
+
+.img-text-overlay {
+    color: white;
+    position: absolute;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 15%;
+    right: 3%;
+    left: 60%;
+
+}
+
+
+.img-text-title{
+    position: absolute;
+    color: honeydew;
+    top: 35%;
+    vertical-align: middle;
+    align-content: flex-end;   
+}
+
+
+.container .card-group .card{
+    margin-left: 20px ;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+}
+
+.container .encabezado p{
+    margin-top: 0.2em;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container .encabezado h2{
+    margin-bottom: 0.2em;
+    display: flex;
+    justify-content: center;
+}
+
+.forms {
+    margin-top: 1em;
+    max-width: 60%;
+}
+
+.forms p{
+    margin-bottom: 0em;
+    display: flex;
+    justify-content: center;
+}
+
+.forms .dotted{
+    border-bottom: 1px dashed #999;
+    text-decoration: none;
+    margin-left: 3px;
+    margin-right: 3px;
+
+}
+
+.forms h2{
+    margin-bottom: 0em;
+    display: flex;
+    justify-content: center;
+}
+
+.forms .mb-3{
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forms .mb-3 .form-control {
+    max-width: 48%;
+}
+
+.forms .mb-4 .pie {
+    justify-content: flex-start;
+    color: #6c757d;
+    font-size: 13px;
+}
+
+.forms .btn {
+    width: 100%;
+    background-color: #96C93E;
+    
+}
+
+footer {
+    margin-top: 15px;
+    background-color: #1E5170;
+    color: white;
+    padding: 20px;  
+}
+
+footer .row{
+    width: 100%;
+    max-width: 100% ;
+    display: flex;
+    align-items: center;
+}
+
+.compartida{
+    padding: auto;
+    max-width: 50%;
+    background-color: #333A40;
+    color: white;
+}
+
+.contenedor-compartida {
+    display: flex;
+    flex-direction: row;
+}
+
+.compartida img {
+    width: 99%;
+}
+
+
