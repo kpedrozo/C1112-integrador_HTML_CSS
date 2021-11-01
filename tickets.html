@@ -24,7 +24,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="#">La conferencia</a>
+            <a class="nav-link" href="index.html">La conferencia</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Los oradores</a>
@@ -73,7 +73,7 @@
 
   <!-- Inicio forms-->
 
-  <div class="forms">
+  <form class="forms">
     <div>
       <p>VENTA</p>
       <h2>VALOR DE TICKET $200</h2>
@@ -99,14 +99,14 @@
         </select>
       </div>
     </div>
-    <div class="alert alert-primary" role="alert">
+    <div class="alert alert-primary" role="alert" id="total">
       Total a Pagar: $
     </div>
     <div class="col-auto">
-      <button type="submit" class="btn text-light">Borrar</button>
-      <button type="submit" class="btn text-light" id="resumen" >Resumen</button>
+      <button type="reset" class="btn text-light">Borrar</button>
+      <button type="button" class="btn text-light" id="resumen" >Resumen</button>
     </div>
-  </div>
+  </form>
 
   <!--Fin forms-->
 
@@ -143,7 +143,7 @@
 
   <!--Fin footer-->
 
-
+  <script src="script.js"> </script>
 </body>
 
 </html>
